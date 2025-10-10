@@ -25,5 +25,10 @@ namespace Runtime.Views
             _world = new World(_messageBus);
             _renderer.Initialize(_messageBus);
         }
+
+        private void FixedUpdate()
+        {
+            _world?.Update(TimeSpan.FromSeconds(Time.fixedDeltaTime));
+        }
     }
 }

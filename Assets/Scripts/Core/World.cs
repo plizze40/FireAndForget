@@ -1,4 +1,5 @@
-﻿using Core.Messages;
+﻿using System;
+using Core.Messages;
 
 namespace Core
 {
@@ -11,6 +12,9 @@ namespace Core
             _messageBus = messageBus;
         }
         
-        
+        public void Update(TimeSpan tick)
+        {
+            
+        }
     }
 }
