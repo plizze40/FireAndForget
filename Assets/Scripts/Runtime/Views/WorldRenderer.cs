@@ -5,6 +5,8 @@ namespace Runtime.Views
 {
     public class WorldRenderer : MonoBehaviour
     {
+        [SerializeField] private GameObject _playerPrefab;
+        
         private MessageBus _messageBus;
 
         public void Initialize(MessageBus messageBus)

@@ -430,6 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05764c9d2cac4c7d8112eb9c27380633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game.Runtime::Runtime.Views.WorldRenderer
+  _playerPrefab: {fileID: 4251791196045320474, guid: de7d7298fbd556b499021a0fe54a134d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
