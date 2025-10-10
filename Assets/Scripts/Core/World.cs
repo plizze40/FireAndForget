@@ -1,7 +1,16 @@
-﻿namespace Core
+﻿using Core.Messages;
+
+namespace Core
 {
-    public class World
+    public sealed class World
     {
+        private readonly MessageBus _messageBus;
+
+        public World(MessageBus messageBus)
+        {
+            _messageBus = messageBus;
+        }
+        
         
     }
 }
